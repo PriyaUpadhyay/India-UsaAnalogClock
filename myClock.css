@@ -1,0 +1,109 @@
+body{
+	background: url(wall1.jpg) no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+
+#india, #usa{
+	position: relative;
+	top: 95%;
+	left: 38%;
+}
+#locTime, #usTime{
+	position: relative;
+	font-weight: bolder;
+	top: 98%;
+	left: 25%
+}
+
+#clockContainer{
+	position: relative;
+	margin: auto; /*to center the clock*/
+	
+	height: 20vw;
+	width: 20vw;
+	background: url(clock.png) no-repeat;
+	background-size: 100%;
+	float: left;
+	
+
+}
+
+#hour, #minute, #second{
+	position: absolute;
+	background: black;
+	border-radius: 10px;
+	transform-origin: bottom;
+	
+}
+
+#hour{
+	width: 1%;
+    height: 20%;
+    top: 30%;
+    left: 49.35%;
+    opacity: 0.8;
+    
+    
+
+}
+
+#minute{
+	width: 0.8%;
+    height: 25%;
+    top: 25%;
+    left: 49.46%;
+    opacity: 0.8;
+}
+
+#second{
+	width: 0.5%;
+    height: 30%;
+    top: 20%;
+    left: 49.60%;
+    opacity: 0.8;
+   
+}
+
+/*css for usa clock*/
+#usaContainer{
+	position: relative;
+	margin: auto;/*to center the clock*/
+	
+	height: 20vw;
+	width: 20vw;
+	background: url(clock.png) no-repeat;
+	background-size: 100%;
+	float: right;
+}
+
+#usHour, #usMinute, #usSecond{
+	position: absolute;
+	background: black;
+	border-radius: 10px;
+	transform-origin: bottom;
+	
+}
+#usHour{
+	width: 1%;
+    height: 20%;
+    top: 30%;
+    left: 49.35%;
+    opacity: 0.8;
+}
+
+#usMinute{
+	width: 0.8%;
+    height: 25%;
+    top: 25%;
+    left: 49.46%;
+    opacity: 0.8;
+}
+
+#usSecond{
+	width: 0.5%;
+    height: 30%;
+    top: 20%;
+    left: 49.60%;
+    opacity: 0.8;  
+}
